@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MobilePhoneRecycleCellId" id="KGk-i7-Jjw" customClass="MobilePhoneRecycleCell" customModule="MobilePhoneRecycle" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="160"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="160"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p56-d0-7ry">
+                        <rect key="frame" x="15" y="35" width="345" height="125"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" backgroundImage="mpl.list.row.bg">
+                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <state key="disabled" image="sg.btn.left.di"/>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jN5-io-wW0">
+                        <rect key="frame" x="15" y="35" width="345" height="125"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mpl.list.row.img" translatesAutoresizingMaskIntoConstraints="NO" id="tso-bG-qi2">
+                                <rect key="frame" x="15" y="-20" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="G0J-Z2-3E2"/>
+                                    <constraint firstAttribute="width" constant="100" id="n1L-Ut-JbH"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="s3Q-DF-6aw">
+                                <rect key="frame" x="140" y="10" width="128.66666666666663" height="71"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iPhone 14Pro Max" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lzd-of-8KD">
+                                        <rect key="frame" x="0.0" y="0.0" width="128.66666666666666" height="21"/>
+                                        <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="15"/>
+                                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="256G " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j2s-Vs-rUL">
+                                        <rect key="frame" x="0.0" y="25" width="128.66666666666666" height="21"/>
+                                        <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="15"/>
+                                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deep Space Grey" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qwO-gM-Thc">
+                                        <rect key="frame" x="0.0" y="50" width="128.66666666666666" height="21"/>
+                                        <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="15"/>
+                                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="KBM-KR-XEa">
+                                <rect key="frame" x="15.000000000000007" y="90" width="106.66666666666669" height="21"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recycling price" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wXN-MX-D4X">
+                                        <rect key="frame" x="0.0" y="0.0" width="106.66666666666667" height="21"/>
+                                        <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="15"/>
+                                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$499" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LvB-wy-b24">
+                                <rect key="frame" x="140" y="90" width="36" height="21"/>
+                                <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="15"/>
+                                <color key="textColor" red="0.023529411764705882" green="0.4392156862745098" blue="0.99215686274509807" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="s3Q-DF-6aw" firstAttribute="top" secondItem="jN5-io-wW0" secondAttribute="top" constant="10" id="Ejv-Ie-JSW"/>
+                            <constraint firstItem="s3Q-DF-6aw" firstAttribute="leading" secondItem="tso-bG-qi2" secondAttribute="trailing" constant="25" id="JNz-l9-98R"/>
+                            <constraint firstItem="tso-bG-qi2" firstAttribute="top" secondItem="jN5-io-wW0" secondAttribute="top" constant="-20" id="QBa-cD-Fwr"/>
+                            <constraint firstAttribute="bottom" secondItem="KBM-KR-XEa" secondAttribute="bottom" constant="14" id="h6q-IN-hIT"/>
+                            <constraint firstItem="KBM-KR-XEa" firstAttribute="leading" secondItem="tso-bG-qi2" secondAttribute="leading" id="lTk-5d-aOa"/>
+                            <constraint firstItem="LvB-wy-b24" firstAttribute="centerY" secondItem="KBM-KR-XEa" secondAttribute="centerY" id="nzw-Eh-gzN"/>
+                            <constraint firstItem="tso-bG-qi2" firstAttribute="leading" secondItem="jN5-io-wW0" secondAttribute="leading" constant="15" id="rMR-Ub-OQb"/>
+                            <constraint firstItem="LvB-wy-b24" firstAttribute="leading" secondItem="s3Q-DF-6aw" secondAttribute="leading" id="sMz-Q5-qt3"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="p56-d0-7ry" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="35" id="5BK-Hp-MBJ"/>
+                    <constraint firstAttribute="bottom" secondItem="p56-d0-7ry" secondAttribute="bottom" id="6Tr-1R-pmi"/>
+                    <constraint firstItem="jN5-io-wW0" firstAttribute="trailing" secondItem="p56-d0-7ry" secondAttribute="trailing" id="WcO-Id-ak7"/>
+                    <constraint firstItem="p56-d0-7ry" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="X4n-v0-fJt"/>
+                    <constraint firstItem="jN5-io-wW0" firstAttribute="bottom" secondItem="p56-d0-7ry" secondAttribute="bottom" id="ZEB-TK-Oe5"/>
+                    <constraint firstItem="jN5-io-wW0" firstAttribute="leading" secondItem="p56-d0-7ry" secondAttribute="leading" id="cKh-na-IBr"/>
+                    <constraint firstItem="jN5-io-wW0" firstAttribute="top" secondItem="p56-d0-7ry" secondAttribute="top" id="xwb-ZI-2OM"/>
+                    <constraint firstAttribute="trailing" secondItem="p56-d0-7ry" secondAttribute="trailing" constant="15" id="xx0-cE-d96"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="deviceColour" destination="qwO-gM-Thc" id="M2p-ZZ-YWB"/>
+                <outlet property="deviceImgs" destination="tso-bG-qi2" id="d9Y-Rf-GPW"/>
+                <outlet property="deviceName" destination="Lzd-of-8KD" id="VVm-iX-pNg"/>
+                <outlet property="devicePrice" destination="LvB-wy-b24" id="x1J-ci-aqW"/>
+                <outlet property="deviceRAM" destination="j2s-Vs-rUL" id="4lC-3H-4aU"/>
+            </connections>
+            <point key="canvasLocation" x="48" y="21"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="mpl.list.row.bg" width="345" height="125"/>
+        <image name="mpl.list.row.img" width="100" height="100"/>
+        <image name="sg.btn.left.di" width="17" height="25"/>
+    </resources>
+</document>

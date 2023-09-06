@@ -1,0 +1,46 @@
+PODS:
+  - IQKeyboardManager (6.5.11)
+  - MBProgressHUD (1.2.0)
+  - Realm (10.38.2):
+    - Realm/Headers (= 10.38.2)
+  - Realm/Headers (10.38.2)
+  - RealmSwift (10.38.2):
+    - Realm (= 10.38.2)
+  - SnapKit (5.6.0)
+  - SwiftyJSON (5.0.1)
+  - TZImagePickerController (3.8.3):
+    - TZImagePickerController/Basic (= 3.8.3)
+    - TZImagePickerController/Location (= 3.8.3)
+  - TZImagePickerController/Basic (3.8.3)
+  - TZImagePickerController/Location (3.8.3)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - MBProgressHUD
+  - RealmSwift
+  - SnapKit
+  - SwiftyJSON
+  - TZImagePickerController
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - IQKeyboardManager
+    - MBProgressHUD
+    - Realm
+    - RealmSwift
+    - SnapKit
+    - SwiftyJSON
+    - TZImagePickerController
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: ef43ce1ba1e5aaf4adf222c0a46f39761f246879
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  Realm: 4132817bce88db8415114f49070ff844aa2f5600
+  RealmSwift: 4175fd7a42483a7951b2c2c79b9d291dfe3a5cf0
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  TZImagePickerController: e9909edbadf7381140efc5b5c9f5bdbfd630f7d4
+
+PODFILE CHECKSUM: 469f1db545e4f12be21d468c2df4b346f516b403
+
+COCOAPODS: 1.11.3

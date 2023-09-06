@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="z5E-Rf-3O6">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="JFu-KZ-cRy">
+            <objects>
+                <navigationController id="z5E-Rf-3O6" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="EnE-kl-k5B">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="QvV-1v-1rM" kind="relationship" relationship="rootViewController" id="AIi-kI-aex"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="68o-WU-HaB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1281" y="-1"/>
+        </scene>
+        <!--Details-->
+        <scene sceneID="arg-FX-U9H">
+            <objects>
+                <viewController id="QvV-1v-1rM" customClass="MpdDetailController" customModule="MobilePhoneRecycle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vel-RH-eBl">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CFL-Tz-Mlm">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <color key="backgroundColor" red="0.94509803920000002" green="0.94117647059999998" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oAN-Sd-giU">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <color key="backgroundColor" red="0.023529411760000001" green="0.43921568630000002" blue="0.99215686270000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5l3-je-5PO">
+                                <rect key="frame" x="0.0" y="103" width="393" height="749"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gZV-Jd-RXl">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="749"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="dCt-Ef-fCo">
+                                                <rect key="frame" x="15" y="15" width="363" height="225"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wZp-ri-fPF">
+                                                        <rect key="frame" x="0.0" y="0.0" width="363" height="225"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" backgroundImage="mpp.test.view.bg">
+                                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                        </state>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </stackView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mzb-Lb-aMP">
+                                                <rect key="frame" x="15" y="15" width="363" height="225"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="13.5" translatesAutoresizingMaskIntoConstraints="NO" id="vpk-aP-usN">
+                                                        <rect key="frame" x="16" y="15" width="315" height="194.33333333333334"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="OyZ-7P-40u">
+                                                                <rect key="frame" x="0.0" y="0.0" width="315" height="21"/>
+                                                                <subviews>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="34v-UH-Yc2">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="157.66666666666666" height="21"/>
+                                                                        <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="15"/>
+                                                                        <inset key="titleEdgeInsets" minX="6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                                        <state key="normal" title="Rear Camera" image="mpp.btn.check.n">
+                                                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        </state>
+                                                                        <state key="selected" image="mpp.btn.check.s"/>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gze-oW-hLr">
+                                                                        <rect key="frame" x="157.66666666666663" y="0.0" width="157.33333333333337" height="21"/>
+                                                                        <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="15"/>
+                                                                        <inset key="titleEdgeInsets" minX="6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                                        <state key="normal" title="Front camera" image="mpp.btn.check.n">
+                                                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        </state>
+                                                                        <state key="selected" image="mpp.btn.check.s"/>
+                                                                    </button>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </stackView>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="oNf-22-tQP">
+                                                                <rect key="frame" x="0.0" y="34.666666666666657" width="315" height="21"/>
+                                                                <subviews>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BeL-Lu-fv1">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="157.66666666666666" height="21"/>
+                                                                        <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="15"/>
+                                                                        <inset key="titleEdgeInsets" minX="6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                                        <state key="normal" title="Flash lamp" image="mpp.btn.check.n">
+                                                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        </state>
+                                                                        <state key="selected" image="mpp.btn.check.s"/>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BRp-fX-zDs">
+                                                                        <rect key="frame" x="157.66666666666663" y="0.0" width="157.33333333333337" height="21"/>
+                                                                        <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="15"/>
+                                                                        <inset key="titleEdgeInsets" minX="6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                                        <state key="normal" title="Compass" image="mpp.btn.check.n">
+                                                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        </state>
+                                                                        <state key="selected" image="mpp.btn.check.s"/>
+                                                                    </button>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </stackView>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="hy4-oi-LK2">
+                                                                <rect key="frame" x="0.0" y="69.333333333333343" width="315" height="21"/>
+                                                                <subviews>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lbY-Ld-lFs">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="157.66666666666666" height="21"/>
+                                                                        <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="15"/>
+                                                                        <inset key="titleEdgeInsets" minX="6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                                        <state key="normal" title="Gyroscope" image="mpp.btn.check.n">
+                                                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        </state>
+                                                                        <state key="selected" image="mpp.btn.check.s"/>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nfs-Tp-ajB">
+                                                                        <rect key="frame" x="157.66666666666663" y="0.0" width="157.33333333333337" height="21"/>
+                                                                        <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="15"/>
+                                                                        <inset key="titleEdgeInsets" minX="6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                                        <state key="normal" title="Speaker" image="mpp.btn.check.n">
+                                                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        </state>
+                                                                        <state key="selected" image="mpp.btn.check.s"/>
+                                                                    </button>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </stackView>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="b8W-Ca-iyT">
+                                                                <rect key="frame" x="0.0" y="104" width="315" height="21"/>
+                                                                <subviews>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aBT-VA-Kat">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="157.66666666666666" height="21"/>
+                                                                        <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="15"/>
+                                                                        <inset key="titleEdgeInsets" minX="6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                                        <state key="normal" title="Microphone" image="mpp.btn.check.n">
+                                                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        </state>
+                                                                        <state key="selected" image="mpp.btn.check.s"/>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GIV-dO-gnn">
+                                                                        <rect key="frame" x="157.66666666666663" y="0.0" width="157.33333333333337" height="21"/>
+                                                                        <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="15"/>
+                                                                        <inset key="titleEdgeInsets" minX="6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                                        <state key="normal" title="Bluetooth" image="mpp.btn.check.n">
+                                                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        </state>
+                                                                        <state key="selected" image="mpp.btn.check.s"/>
+                                                                    </button>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </stackView>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="SXn-8m-Py4">
+                                                                <rect key="frame" x="0.0" y="138.66666666666669" width="315" height="21"/>
+                                                                <subviews>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0xx-gw-U5O">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="157.66666666666666" height="21"/>
+                                                                        <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="15"/>
+                                                                        <inset key="titleEdgeInsets" minX="6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                                        <state key="normal" title="Wi-Fi" image="mpp.btn.check.n">
+                                                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        </state>
+                                                                        <state key="selected" image="mpp.btn.check.s"/>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1wl-St-Msp">
+                                                                        <rect key="frame" x="157.66666666666663" y="0.0" width="157.33333333333337" height="21"/>
+                                                                        <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="15"/>
+                                                                        <inset key="titleEdgeInsets" minX="6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                                        <state key="normal" title="Screen" image="mpp.btn.check.n">
+                                                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        </state>
+                                                                        <state key="selected" image="mpp.btn.check.s"/>
+                                                                    </button>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </stackView>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="80Z-fM-GMp">
+                                                                <rect key="frame" x="0.0" y="173.33333333333331" width="315" height="21"/>
+                                                                <subviews>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6rV-uI-lEp">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="157.66666666666666" height="21"/>
+                                                                        <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="15"/>
+                                                                        <inset key="titleEdgeInsets" minX="6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                                        <state key="normal" title="GPS" image="mpp.btn.check.n">
+                                                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        </state>
+                                                                        <state key="selected" image="mpp.btn.check.s"/>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y4q-LV-a7P">
+                                                                        <rect key="frame" x="157.66666666666663" y="0.0" width="157.33333333333337" height="21"/>
+                                                                        <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="15"/>
+                                                                        <inset key="titleEdgeInsets" minX="6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                                        <state key="normal" title="Light Sensor" image="mpp.btn.check.n">
+                                                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        </state>
+                                                                        <state key="selected" image="mpp.btn.check.s"/>
+                                                                    </button>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </stackView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </stackView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="vpk-aP-usN" secondAttribute="trailing" constant="32" id="PWe-GT-UjG"/>
+                                                    <constraint firstItem="vpk-aP-usN" firstAttribute="leading" secondItem="Mzb-Lb-aMP" secondAttribute="leading" constant="16" id="Yct-qh-R8G"/>
+                                                    <constraint firstItem="vpk-aP-usN" firstAttribute="top" secondItem="Mzb-Lb-aMP" secondAttribute="top" constant="15" id="fHj-se-CH1"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="Mzb-Lb-aMP" firstAttribute="trailing" secondItem="wZp-ri-fPF" secondAttribute="trailing" id="98e-E2-HZl"/>
+                                            <constraint firstAttribute="trailing" secondItem="dCt-Ef-fCo" secondAttribute="trailing" constant="15" id="Eho-aJ-Zop"/>
+                                            <constraint firstItem="Mzb-Lb-aMP" firstAttribute="bottom" secondItem="wZp-ri-fPF" secondAttribute="bottom" id="Vju-qX-vWY"/>
+                                            <constraint firstItem="dCt-Ef-fCo" firstAttribute="leading" secondItem="gZV-Jd-RXl" secondAttribute="leading" constant="15" id="Yb7-Qe-4jJ"/>
+                                            <constraint firstItem="dCt-Ef-fCo" firstAttribute="top" secondItem="gZV-Jd-RXl" secondAttribute="top" constant="15" id="crx-pF-vnF"/>
+                                            <constraint firstItem="Mzb-Lb-aMP" firstAttribute="leading" secondItem="wZp-ri-fPF" secondAttribute="leading" id="cwB-Sm-hjq"/>
+                                            <constraint firstItem="Mzb-Lb-aMP" firstAttribute="top" secondItem="wZp-ri-fPF" secondAttribute="top" id="puV-Ha-c63"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.90196078430000004" green="0.94509803920000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="gZV-Jd-RXl" secondAttribute="trailing" id="2BA-w5-68O"/>
+                                    <constraint firstAttribute="bottom" secondItem="gZV-Jd-RXl" secondAttribute="bottom" id="UsB-2i-EOr"/>
+                                    <constraint firstItem="gZV-Jd-RXl" firstAttribute="top" secondItem="5l3-je-5PO" secondAttribute="top" id="YWs-pz-vuH"/>
+                                    <constraint firstItem="gZV-Jd-RXl" firstAttribute="leading" secondItem="5l3-je-5PO" secondAttribute="leading" id="dJQ-sh-Qgv"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="upH-sn-ELr"/>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.98039215690000003" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="CFL-Tz-Mlm" secondAttribute="bottom" id="50C-cg-kr8"/>
+                            <constraint firstAttribute="trailing" secondItem="oAN-Sd-giU" secondAttribute="trailing" id="7lw-sR-NJJ"/>
+                            <constraint firstItem="CFL-Tz-Mlm" firstAttribute="top" secondItem="Vel-RH-eBl" secondAttribute="top" id="8v5-hI-rwU"/>
+                            <constraint firstItem="oAN-Sd-giU" firstAttribute="top" secondItem="Vel-RH-eBl" secondAttribute="top" id="C3A-fV-kW3"/>
+                            <constraint firstAttribute="trailing" secondItem="CFL-Tz-Mlm" secondAttribute="trailing" id="Vkq-kh-Oaw"/>
+                            <constraint firstItem="oAN-Sd-giU" firstAttribute="leading" secondItem="Vel-RH-eBl" secondAttribute="leading" id="Zs5-g5-vQZ"/>
+                            <constraint firstItem="CFL-Tz-Mlm" firstAttribute="leading" secondItem="Vel-RH-eBl" secondAttribute="leading" id="dA7-29-2Zx"/>
+                            <constraint firstAttribute="bottom" secondItem="5l3-je-5PO" secondAttribute="bottom" id="eZI-TP-ZQp"/>
+                            <constraint firstAttribute="trailing" secondItem="5l3-je-5PO" secondAttribute="trailing" id="jsl-Iy-gnk"/>
+                            <constraint firstItem="5l3-je-5PO" firstAttribute="leading" secondItem="Vel-RH-eBl" secondAttribute="leading" id="sef-rL-JZe"/>
+                            <constraint firstAttribute="bottom" secondItem="oAN-Sd-giU" secondAttribute="bottom" id="v4E-Hj-VyN"/>
+                            <constraint firstItem="5l3-je-5PO" firstAttribute="top" secondItem="upH-sn-ELr" secondAttribute="top" id="xIM-8w-OSo"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Details" id="cZk-Wp-9uB">
+                        <barButtonItem key="leftBarButtonItem" image="mpr.ni.item.r" id="rjl-yp-UrC">
+                            <connections>
+                                <action selector="MprRetumprItem:" destination="QvV-1v-1rM" id="OUq-pR-Gsq"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="bluetoothBT" destination="GIV-dO-gnn" id="ACo-AQ-gGv"/>
+                        <outlet property="compassBT" destination="BRp-fX-zDs" id="mR4-pA-Kfo"/>
+                        <outlet property="flashLampBT" destination="BeL-Lu-fv1" id="JeC-2D-W5d"/>
+                        <outlet property="frontCameraBT" destination="Gze-oW-hLr" id="PKO-zY-2jC"/>
+                        <outlet property="gpsBT" destination="6rV-uI-lEp" id="QAE-5W-kBT"/>
+                        <outlet property="gyroscopeBT" destination="lbY-Ld-lFs" id="6Bx-6Y-eP7"/>
+                        <outlet property="lightSensorBT" destination="y4q-LV-a7P" id="TsS-jN-E2G"/>
+                        <outlet property="microphoneBT" destination="aBT-VA-Kat" id="N6K-Sy-PaG"/>
+                        <outlet property="rearCameraBT" destination="34v-UH-Yc2" id="Rl6-lp-XnI"/>
+                        <outlet property="screenBT" destination="1wl-St-Msp" id="rff-Y0-dDZ"/>
+                        <outlet property="speakerBT" destination="Nfs-Tp-ajB" id="Ro7-Zp-gjR"/>
+                        <outlet property="wifiBT" destination="0xx-gw-U5O" id="JjU-My-iCh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ly3-He-wKh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-477" y="-1"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mpp.btn.check.n" width="20" height="20"/>
+        <image name="mpp.btn.check.s" width="20" height="20"/>
+        <image name="mpp.test.view.bg" width="345" height="225"/>
+        <image name="mpr.ni.item.r" width="8" height="14"/>
+    </resources>
+</document>

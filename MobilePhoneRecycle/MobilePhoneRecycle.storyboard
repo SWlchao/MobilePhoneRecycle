@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yyy-RC-V5f">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Ads-8v-KHl">
+            <objects>
+                <navigationController id="yyy-RC-V5f" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pT1-FQ-BMv">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="gsX-cp-rYC" kind="relationship" relationship="rootViewController" id="Lmp-7i-tN3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HJc-YJ-hBD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1281" y="-1"/>
+        </scene>
+        <!--Mobile phone recycling-->
+        <scene sceneID="CEa-oF-W9h">
+            <objects>
+                <viewController id="gsX-cp-rYC" customClass="MprHeadController" customModule="MobilePhoneRecycle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4s4-Ob-CIi">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dwl-rS-5Fx">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <color key="backgroundColor" red="0.94509803920000002" green="0.94117647059999998" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a5w-1E-P4J">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <color key="backgroundColor" red="0.023529411764705882" green="0.4392156862745098" blue="0.99215686274509807" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QvY-3Y-a3X">
+                                <rect key="frame" x="0.0" y="103" width="393" height="749"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mpr.top.view.im" translatesAutoresizingMaskIntoConstraints="NO" id="Xer-ZI-6tH">
+                                        <rect key="frame" x="16" y="15" width="361" height="150"/>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AiS-xS-XqN">
+                                        <rect key="frame" x="0.0" y="180" width="393" height="569"/>
+                                        <subviews>
+                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XVy-xE-j2z">
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="569"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yld-7E-kiN">
+                                                        <rect key="frame" x="0.0" y="0.0" width="393" height="569"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mpr.bto.view.bg" translatesAutoresizingMaskIntoConstraints="NO" id="Mij-Uy-jy5">
+                                                                <rect key="frame" x="16" y="16" width="361" height="470"/>
+                                                            </imageView>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="MP9-mW-vfR">
+                                                                <rect key="frame" x="25" y="30" width="343" height="439"/>
+                                                                <subviews>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zJ2-ZK-hO4">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="343" height="139.66666666666666"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" backgroundImage="mpr.bt.view.bg">
+                                                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        </state>
+                                                                        <connections>
+                                                                            <action selector="MrClickGainmrdev:" destination="gsX-cp-rYC" eventType="touchUpInside" id="zxz-cn-8fu"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b94-Mm-cqD">
+                                                                        <rect key="frame" x="0.0" y="149.66666666666669" width="343" height="139.66666666666669"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" backgroundImage="mpr.bt.view.bg">
+                                                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        </state>
+                                                                        <connections>
+                                                                            <action selector="MrClickmrList:" destination="gsX-cp-rYC" eventType="touchUpInside" id="7Ji-gu-TtP"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hf4-6N-uUJ">
+                                                                        <rect key="frame" x="0.0" y="299.33333333333337" width="343" height="139.66666666666663"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" backgroundImage="mpr.bt.view.bg">
+                                                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        </state>
+                                                                        <connections>
+                                                                            <action selector="MrClickmrClear:" destination="gsX-cp-rYC" eventType="touchUpInside" id="L9h-0E-e9d"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </stackView>
+                                                            <stackView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="noE-09-yiP">
+                                                                <rect key="frame" x="140.66666666666666" y="55.000000000000007" width="111.66666666666666" height="89.666666666666686"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XLc-uU-VCe">
+                                                                        <rect key="frame" x="39.666666666666686" y="0.0" width="32.333333333333343" height="24"/>
+                                                                        <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="17"/>
+                                                                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uEs-oq-0hK">
+                                                                        <rect key="frame" x="0.0" y="28.999999999999996" width="111.66666666666667" height="60.666666666666657"/>
+                                                                        <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="15"/>
+                                                                        <state key="normal" image="mpr.bt.g.view.im">
+                                                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        </state>
+                                                                    </button>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </stackView>
+                                                            <stackView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="YrN-JG-aru">
+                                                                <rect key="frame" x="140.66666666666666" y="205.66666666666669" width="112" height="87.666666666666686"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="History" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EPI-vP-9Gu">
+                                                                        <rect key="frame" x="27" y="0.0" width="58" height="24"/>
+                                                                        <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="17"/>
+                                                                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zZD-hH-gil">
+                                                                        <rect key="frame" x="0.0" y="28.99999999999994" width="112" height="58.666666666666657"/>
+                                                                        <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="15"/>
+                                                                        <state key="normal" image="mpr.bt.h.view.im">
+                                                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        </state>
+                                                                    </button>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </stackView>
+                                                            <stackView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="hDm-mZ-wth">
+                                                                <rect key="frame" x="140.66666666666666" y="355.66666666666663" width="112" height="87"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ig-HD-08Z">
+                                                                        <rect key="frame" x="31.666666666666689" y="0.0" width="48.333333333333343" height="24"/>
+                                                                        <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="17"/>
+                                                                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0MM-fn-SbC">
+                                                                        <rect key="frame" x="0.0" y="29" width="112" height="58"/>
+                                                                        <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="15"/>
+                                                                        <state key="normal" image="mpr.bt.a.view.im">
+                                                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        </state>
+                                                                    </button>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </stackView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstItem="hDm-mZ-wth" firstAttribute="centerY" secondItem="Hf4-6N-uUJ" secondAttribute="centerY" id="1pV-eG-7h1"/>
+                                                            <constraint firstItem="Mij-Uy-jy5" firstAttribute="top" secondItem="Yld-7E-kiN" secondAttribute="top" constant="16" id="79V-OY-hy5"/>
+                                                            <constraint firstItem="Mij-Uy-jy5" firstAttribute="leading" secondItem="Yld-7E-kiN" secondAttribute="leading" constant="16" id="EtQ-qT-CCs"/>
+                                                            <constraint firstItem="MP9-mW-vfR" firstAttribute="leading" secondItem="Yld-7E-kiN" secondAttribute="leading" constant="25" id="Gdi-a4-gOF"/>
+                                                            <constraint firstItem="YrN-JG-aru" firstAttribute="centerY" secondItem="b94-Mm-cqD" secondAttribute="centerY" id="IhI-vR-7FV"/>
+                                                            <constraint firstAttribute="trailing" secondItem="MP9-mW-vfR" secondAttribute="trailing" constant="25" id="LvL-dr-bD4"/>
+                                                            <constraint firstItem="MP9-mW-vfR" firstAttribute="top" secondItem="Yld-7E-kiN" secondAttribute="top" constant="30" id="VqJ-On-k1K"/>
+                                                            <constraint firstItem="noE-09-yiP" firstAttribute="centerY" secondItem="zJ2-ZK-hO4" secondAttribute="centerY" id="bLN-wj-WoC"/>
+                                                            <constraint firstAttribute="trailing" secondItem="Mij-Uy-jy5" secondAttribute="trailing" constant="16" id="jSs-Q6-bcA"/>
+                                                            <constraint firstItem="hDm-mZ-wth" firstAttribute="centerX" secondItem="Hf4-6N-uUJ" secondAttribute="centerX" id="jvF-1Z-p9P"/>
+                                                            <constraint firstItem="noE-09-yiP" firstAttribute="centerX" secondItem="zJ2-ZK-hO4" secondAttribute="centerX" id="mW4-Wm-Ug2"/>
+                                                            <constraint firstAttribute="height" constant="569" id="uU6-9s-D7W"/>
+                                                            <constraint firstItem="YrN-JG-aru" firstAttribute="centerX" secondItem="b94-Mm-cqD" secondAttribute="centerX" id="vTB-BM-WYZ"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="Yld-7E-kiN" firstAttribute="top" secondItem="XVy-xE-j2z" secondAttribute="top" id="0bA-Yq-3Eu"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Yld-7E-kiN" secondAttribute="trailing" id="VpL-oi-3cc"/>
+                                                    <constraint firstItem="Yld-7E-kiN" firstAttribute="leading" secondItem="XVy-xE-j2z" secondAttribute="leading" id="XA8-HX-j70"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Yld-7E-kiN" secondAttribute="bottom" id="YJz-1U-mtq"/>
+                                                    <constraint firstItem="Yld-7E-kiN" firstAttribute="width" secondItem="XVy-xE-j2z" secondAttribute="width" id="wen-H7-1px"/>
+                                                </constraints>
+                                                <viewLayoutGuide key="contentLayoutGuide" id="InQ-cY-tzR"/>
+                                                <viewLayoutGuide key="frameLayoutGuide" id="h3T-m7-j7b"/>
+                                            </scrollView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.90196078431372551" green="0.94509803921568625" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="XVy-xE-j2z" firstAttribute="top" secondItem="AiS-xS-XqN" secondAttribute="top" id="DXH-yb-N5H"/>
+                                            <constraint firstAttribute="bottom" secondItem="XVy-xE-j2z" secondAttribute="bottom" id="K3X-as-Ggz"/>
+                                            <constraint firstAttribute="trailing" secondItem="XVy-xE-j2z" secondAttribute="trailing" id="iXq-z1-G4G"/>
+                                            <constraint firstItem="XVy-xE-j2z" firstAttribute="leading" secondItem="AiS-xS-XqN" secondAttribute="leading" id="iqM-s6-TbU"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Xer-ZI-6tH" firstAttribute="leading" secondItem="QvY-3Y-a3X" secondAttribute="leading" constant="16" id="35H-ZR-sUd"/>
+                                    <constraint firstAttribute="trailing" secondItem="Xer-ZI-6tH" secondAttribute="trailing" constant="16" id="9NN-W0-p0e"/>
+                                    <constraint firstItem="AiS-xS-XqN" firstAttribute="top" secondItem="Xer-ZI-6tH" secondAttribute="bottom" constant="15" id="B9I-ae-LTU"/>
+                                    <constraint firstAttribute="trailing" secondItem="AiS-xS-XqN" secondAttribute="trailing" id="SLV-Bt-b69"/>
+                                    <constraint firstItem="AiS-xS-XqN" firstAttribute="leading" secondItem="QvY-3Y-a3X" secondAttribute="leading" id="gIg-t7-Axs"/>
+                                    <constraint firstItem="Xer-ZI-6tH" firstAttribute="top" secondItem="QvY-3Y-a3X" secondAttribute="top" constant="15" id="jig-s1-87E"/>
+                                    <constraint firstAttribute="bottom" secondItem="AiS-xS-XqN" secondAttribute="bottom" id="xmh-FB-ZkC"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1vo-xq-Qky"/>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.98039215690000003" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="a5w-1E-P4J" secondAttribute="trailing" id="038-2H-Vmb"/>
+                            <constraint firstAttribute="bottom" secondItem="QvY-3Y-a3X" secondAttribute="bottom" id="0Wk-Rj-PZb"/>
+                            <constraint firstItem="QvY-3Y-a3X" firstAttribute="top" secondItem="1vo-xq-Qky" secondAttribute="top" id="5fQ-bv-QFP"/>
+                            <constraint firstItem="a5w-1E-P4J" firstAttribute="leading" secondItem="4s4-Ob-CIi" secondAttribute="leading" id="Dzn-4B-qCV"/>
+                            <constraint firstAttribute="bottom" secondItem="a5w-1E-P4J" secondAttribute="bottom" id="M2Y-JY-Ti3"/>
+                            <constraint firstItem="a5w-1E-P4J" firstAttribute="top" secondItem="4s4-Ob-CIi" secondAttribute="top" id="Nw9-KY-X4B"/>
+                            <constraint firstItem="QvY-3Y-a3X" firstAttribute="leading" secondItem="4s4-Ob-CIi" secondAttribute="leading" id="RCf-uy-dHX"/>
+                            <constraint firstAttribute="trailing" secondItem="QvY-3Y-a3X" secondAttribute="trailing" id="V8I-aJ-nA4"/>
+                            <constraint firstAttribute="trailing" secondItem="dwl-rS-5Fx" secondAttribute="trailing" id="X4L-7T-IIw"/>
+                            <constraint firstAttribute="bottom" secondItem="dwl-rS-5Fx" secondAttribute="bottom" id="ucK-O2-zjr"/>
+                            <constraint firstItem="dwl-rS-5Fx" firstAttribute="leading" secondItem="4s4-Ob-CIi" secondAttribute="leading" id="yb5-O0-fRX"/>
+                            <constraint firstItem="dwl-rS-5Fx" firstAttribute="top" secondItem="4s4-Ob-CIi" secondAttribute="top" id="z1U-lP-xBs"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Mobile phone recycling" id="fZP-WY-vUV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WdS-6v-CpF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-544" y="-1"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mpr.bt.a.view.im" width="112" height="58"/>
+        <image name="mpr.bt.g.view.im" width="111.66666412353516" height="60.666667938232422"/>
+        <image name="mpr.bt.h.view.im" width="112" height="58.666667938232422"/>
+        <image name="mpr.bt.view.bg" width="324.66665649414062" height="139.66667175292969"/>
+        <image name="mpr.bto.view.bg" width="345" height="470"/>
+        <image name="mpr.top.view.im" width="345" height="150"/>
+    </resources>
+</document>

@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0441DAC72A8A2C5100DB76C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441DAC62A8A2C5100DB76C3 /* AppDelegate.swift */; };
+		0441DAC92A8A2C5100DB76C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441DAC82A8A2C5100DB76C3 /* SceneDelegate.swift */; };
+		0441DACB2A8A2C5100DB76C3 /* MprHeadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441DACA2A8A2C5100DB76C3 /* MprHeadController.swift */; };
+		0441DACE2A8A2C5100DB76C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0441DACC2A8A2C5100DB76C3 /* Main.storyboard */; };
+		0441DAD02A8A2C5400DB76C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0441DACF2A8A2C5400DB76C3 /* Assets.xcassets */; };
+		0441DAD32A8A2C5400DB76C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0441DAD12A8A2C5400DB76C3 /* LaunchScreen.storyboard */; };
+		0441DADB2A8A2CBA00DB76C3 /* MobilePhoneRecycle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0441DADA2A8A2CBA00DB76C3 /* MobilePhoneRecycle.storyboard */; };
+		04645DF52A8B0F6500A34CE5 /* MobilePhoneGain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04645DF42A8B0F6500A34CE5 /* MobilePhoneGain.storyboard */; };
+		04645DF72A8B178900A34CE5 /* MpgGainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04645DF62A8B178900A34CE5 /* MpgGainController.swift */; };
+		04645DF92A8B188000A34CE5 /* MobilePhoneTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04645DF82A8B188000A34CE5 /* MobilePhoneTest.storyboard */; };
+		04645DFB2A8B1EC200A34CE5 /* MptTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04645DFA2A8B1EC200A34CE5 /* MptTestController.swift */; };
+		04645DFD2A8B205700A34CE5 /* MobilePhonePrice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04645DFC2A8B205700A34CE5 /* MobilePhonePrice.storyboard */; };
+		04645DFF2A8B27A400A34CE5 /* MppPriceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04645DFE2A8B27A400A34CE5 /* MppPriceController.swift */; };
+		04645E012A8B280700A34CE5 /* MobilePhoneList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04645E002A8B280700A34CE5 /* MobilePhoneList.storyboard */; };
+		04645E032A8B28A000A34CE5 /* MplListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04645E022A8B28A000A34CE5 /* MplListController.swift */; };
+		04645E062A8B290900A34CE5 /* MobilePhoneRecycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04645E042A8B290900A34CE5 /* MobilePhoneRecycleCell.swift */; };
+		04645E072A8B290900A34CE5 /* MobilePhoneRecycleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04645E052A8B290900A34CE5 /* MobilePhoneRecycleCell.xib */; };
+		04645E092A8B2C9000A34CE5 /* MobilePhoneDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04645E082A8B2C9000A34CE5 /* MobilePhoneDetail.storyboard */; };
+		04645E0B2A8B2D1F00A34CE5 /* MpdDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04645E0A2A8B2D1F00A34CE5 /* MpdDetailController.swift */; };
+		04645E0D2A8B2DFD00A34CE5 /* MprClearCache.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04645E0C2A8B2DFD00A34CE5 /* MprClearCache.storyboard */; };
+		04645E0F2A8B471500A34CE5 /* MprClearController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04645E0E2A8B471500A34CE5 /* MprClearController.swift */; };
+		04645E2D2A8B706D00A34CE5 /* MobilePhoneRecycleExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04645E2B2A8B706D00A34CE5 /* MobilePhoneRecycleExt.swift */; };
+		04645E302A8B772400A34CE5 /* MobileDeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04645E2E2A8B772400A34CE5 /* MobileDeviceModel.swift */; };
+		04645E312A8B772400A34CE5 /* MobilePhoneRecycleMr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04645E2F2A8B772400A34CE5 /* MobilePhoneRecycleMr.swift */; };
+		234C13417F78711A7425C8CE /* Pods_MobilePhoneRecycle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF9155A8F5C9D0BF4206ADA /* Pods_MobilePhoneRecycle.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0441DAC32A8A2C5100DB76C3 /* MobilePhoneRecycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobilePhoneRecycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0441DAC62A8A2C5100DB76C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0441DAC82A8A2C5100DB76C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0441DACA2A8A2C5100DB76C3 /* MprHeadController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MprHeadController.swift; sourceTree = "<group>"; };
+		0441DACD2A8A2C5100DB76C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0441DACF2A8A2C5400DB76C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0441DAD22A8A2C5400DB76C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0441DAD42A8A2C5400DB76C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0441DADA2A8A2CBA00DB76C3 /* MobilePhoneRecycle.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MobilePhoneRecycle.storyboard; sourceTree = "<group>"; };
+		04645DF42A8B0F6500A34CE5 /* MobilePhoneGain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MobilePhoneGain.storyboard; sourceTree = "<group>"; };
+		04645DF62A8B178900A34CE5 /* MpgGainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MpgGainController.swift; sourceTree = "<group>"; };
+		04645DF82A8B188000A34CE5 /* MobilePhoneTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MobilePhoneTest.storyboard; sourceTree = "<group>"; };
+		04645DFA2A8B1EC200A34CE5 /* MptTestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MptTestController.swift; sourceTree = "<group>"; };
+		04645DFC2A8B205700A34CE5 /* MobilePhonePrice.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MobilePhonePrice.storyboard; sourceTree = "<group>"; };
+		04645DFE2A8B27A400A34CE5 /* MppPriceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MppPriceController.swift; sourceTree = "<group>"; };
+		04645E002A8B280700A34CE5 /* MobilePhoneList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MobilePhoneList.storyboard; sourceTree = "<group>"; };
+		04645E022A8B28A000A34CE5 /* MplListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MplListController.swift; sourceTree = "<group>"; };
+		04645E042A8B290900A34CE5 /* MobilePhoneRecycleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobilePhoneRecycleCell.swift; sourceTree = "<group>"; };
+		04645E052A8B290900A34CE5 /* MobilePhoneRecycleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MobilePhoneRecycleCell.xib; sourceTree = "<group>"; };
+		04645E082A8B2C9000A34CE5 /* MobilePhoneDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MobilePhoneDetail.storyboard; sourceTree = "<group>"; };
+		04645E0A2A8B2D1F00A34CE5 /* MpdDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MpdDetailController.swift; sourceTree = "<group>"; };
+		04645E0C2A8B2DFD00A34CE5 /* MprClearCache.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MprClearCache.storyboard; sourceTree = "<group>"; };
+		04645E0E2A8B471500A34CE5 /* MprClearController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MprClearController.swift; sourceTree = "<group>"; };
+		04645E2B2A8B706D00A34CE5 /* MobilePhoneRecycleExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobilePhoneRecycleExt.swift; sourceTree = "<group>"; };
+		04645E2C2A8B706D00A34CE5 /* MrOCodeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MrOCodeHeader.h; sourceTree = "<group>"; };
+		04645E2E2A8B772400A34CE5 /* MobileDeviceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileDeviceModel.swift; sourceTree = "<group>"; };
+		04645E2F2A8B772400A34CE5 /* MobilePhoneRecycleMr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobilePhoneRecycleMr.swift; sourceTree = "<group>"; };
+		5B39D2B0932803CEBD853E21 /* Pods-MobilePhoneRecycle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilePhoneRecycle.release.xcconfig"; path = "Target Support Files/Pods-MobilePhoneRecycle/Pods-MobilePhoneRecycle.release.xcconfig"; sourceTree = "<group>"; };
+		6CF9155A8F5C9D0BF4206ADA /* Pods_MobilePhoneRecycle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobilePhoneRecycle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4680969B826A0F015F11F88 /* Pods-MobilePhoneRecycle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilePhoneRecycle.debug.xcconfig"; path = "Target Support Files/Pods-MobilePhoneRecycle/Pods-MobilePhoneRecycle.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0441DAC02A8A2C5100DB76C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234C13417F78711A7425C8CE /* Pods_MobilePhoneRecycle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0441DABA2A8A2C5100DB76C3 = {
+			isa = PBXGroup;
+			children = (
+				0441DAC52A8A2C5100DB76C3 /* MobilePhoneRecycle */,
+				0441DAC42A8A2C5100DB76C3 /* Products */,
+				A7CE03B0DB6119E1FE2FEC78 /* Pods */,
+				0BF33FC8D0DEC8B84A736F93 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0441DAC42A8A2C5100DB76C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0441DAC32A8A2C5100DB76C3 /* MobilePhoneRecycle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0441DAC52A8A2C5100DB76C3 /* MobilePhoneRecycle */ = {
+			isa = PBXGroup;
+			children = (
+				0441DAC62A8A2C5100DB76C3 /* AppDelegate.swift */,
+				0441DAC82A8A2C5100DB76C3 /* SceneDelegate.swift */,
+				0441DADA2A8A2CBA00DB76C3 /* MobilePhoneRecycle.storyboard */,
+				0441DACA2A8A2C5100DB76C3 /* MprHeadController.swift */,
+				04645DF42A8B0F6500A34CE5 /* MobilePhoneGain.storyboard */,
+				04645DF62A8B178900A34CE5 /* MpgGainController.swift */,
+				04645DF82A8B188000A34CE5 /* MobilePhoneTest.storyboard */,
+				04645DFA2A8B1EC200A34CE5 /* MptTestController.swift */,
+				04645DFC2A8B205700A34CE5 /* MobilePhonePrice.storyboard */,
+				04645DFE2A8B27A400A34CE5 /* MppPriceController.swift */,
+				04645E002A8B280700A34CE5 /* MobilePhoneList.storyboard */,
+				04645E022A8B28A000A34CE5 /* MplListController.swift */,
+				04645E052A8B290900A34CE5 /* MobilePhoneRecycleCell.xib */,
+				04645E042A8B290900A34CE5 /* MobilePhoneRecycleCell.swift */,
+				04645E082A8B2C9000A34CE5 /* MobilePhoneDetail.storyboard */,
+				04645E0A2A8B2D1F00A34CE5 /* MpdDetailController.swift */,
+				04645E0C2A8B2DFD00A34CE5 /* MprClearCache.storyboard */,
+				04645E0E2A8B471500A34CE5 /* MprClearController.swift */,
+				04645E2C2A8B706D00A34CE5 /* MrOCodeHeader.h */,
+				04645E2B2A8B706D00A34CE5 /* MobilePhoneRecycleExt.swift */,
+				04645E2F2A8B772400A34CE5 /* MobilePhoneRecycleMr.swift */,
+				04645E2E2A8B772400A34CE5 /* MobileDeviceModel.swift */,
+				0441DACC2A8A2C5100DB76C3 /* Main.storyboard */,
+				0441DACF2A8A2C5400DB76C3 /* Assets.xcassets */,
+				0441DAD12A8A2C5400DB76C3 /* LaunchScreen.storyboard */,
+				0441DAD42A8A2C5400DB76C3 /* Info.plist */,
+			);
+			path = MobilePhoneRecycle;
+			sourceTree = "<group>";
+		};
+		0BF33FC8D0DEC8B84A736F93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CF9155A8F5C9D0BF4206ADA /* Pods_MobilePhoneRecycle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7CE03B0DB6119E1FE2FEC78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4680969B826A0F015F11F88 /* Pods-MobilePhoneRecycle.debug.xcconfig */,
+				5B39D2B0932803CEBD853E21 /* Pods-MobilePhoneRecycle.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0441DAC22A8A2C5100DB76C3 /* MobilePhoneRecycle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0441DAD72A8A2C5400DB76C3 /* Build configuration list for PBXNativeTarget "MobilePhoneRecycle" */;
+			buildPhases = (
+				4D9430CE6BBF87F457D034CE /* [CP] Check Pods Manifest.lock */,
+				0441DABF2A8A2C5100DB76C3 /* Sources */,
+				0441DAC02A8A2C5100DB76C3 /* Frameworks */,
+				0441DAC12A8A2C5100DB76C3 /* Resources */,
+				29FB5B57142C1AD855B7F80D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobilePhoneRecycle;
+			productName = MobilePhoneRecycle;
+			productReference = 0441DAC32A8A2C5100DB76C3 /* MobilePhoneRecycle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0441DABB2A8A2C5100DB76C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0441DAC22A8A2C5100DB76C3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 0441DABE2A8A2C5100DB76C3 /* Build configuration list for PBXProject "MobilePhoneRecycle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0441DABA2A8A2C5100DB76C3;
+			productRefGroup = 0441DAC42A8A2C5100DB76C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0441DAC22A8A2C5100DB76C3 /* MobilePhoneRecycle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0441DAC12A8A2C5100DB76C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04645E072A8B290900A34CE5 /* MobilePhoneRecycleCell.xib in Resources */,
+				04645DFD2A8B205700A34CE5 /* MobilePhonePrice.storyboard in Resources */,
+				04645E0D2A8B2DFD00A34CE5 /* MprClearCache.storyboard in Resources */,
+				0441DAD32A8A2C5400DB76C3 /* LaunchScreen.storyboard in Resources */,
+				0441DADB2A8A2CBA00DB76C3 /* MobilePhoneRecycle.storyboard in Resources */,
+				04645E092A8B2C9000A34CE5 /* MobilePhoneDetail.storyboard in Resources */,
+				0441DAD02A8A2C5400DB76C3 /* Assets.xcassets in Resources */,
+				0441DACE2A8A2C5100DB76C3 /* Main.storyboard in Resources */,
+				04645DF52A8B0F6500A34CE5 /* MobilePhoneGain.storyboard in Resources */,
+				04645DF92A8B188000A34CE5 /* MobilePhoneTest.storyboard in Resources */,
+				04645E012A8B280700A34CE5 /* MobilePhoneList.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29FB5B57142C1AD855B7F80D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobilePhoneRecycle/Pods-MobilePhoneRecycle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobilePhoneRecycle/Pods-MobilePhoneRecycle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobilePhoneRecycle/Pods-MobilePhoneRecycle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D9430CE6BBF87F457D034CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobilePhoneRecycle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0441DABF2A8A2C5100DB76C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04645E062A8B290900A34CE5 /* MobilePhoneRecycleCell.swift in Sources */,
+				0441DACB2A8A2C5100DB76C3 /* MprHeadController.swift in Sources */,
+				04645DFF2A8B27A400A34CE5 /* MppPriceController.swift in Sources */,
+				04645E032A8B28A000A34CE5 /* MplListController.swift in Sources */,
+				04645E302A8B772400A34CE5 /* MobileDeviceModel.swift in Sources */,
+				04645DFB2A8B1EC200A34CE5 /* MptTestController.swift in Sources */,
+				04645DF72A8B178900A34CE5 /* MpgGainController.swift in Sources */,
+				04645E312A8B772400A34CE5 /* MobilePhoneRecycleMr.swift in Sources */,
+				04645E2D2A8B706D00A34CE5 /* MobilePhoneRecycleExt.swift in Sources */,
+				04645E0B2A8B2D1F00A34CE5 /* MpdDetailController.swift in Sources */,
+				04645E0F2A8B471500A34CE5 /* MprClearController.swift in Sources */,
+				0441DAC72A8A2C5100DB76C3 /* AppDelegate.swift in Sources */,
+				0441DAC92A8A2C5100DB76C3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0441DACC2A8A2C5100DB76C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0441DACD2A8A2C5100DB76C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0441DAD12A8A2C5400DB76C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0441DAD22A8A2C5400DB76C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0441DAD52A8A2C5400DB76C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0441DAD62A8A2C5400DB76C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0441DAD82A8A2C5400DB76C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4680969B826A0F015F11F88 /* Pods-MobilePhoneRecycle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobilePhoneRecycle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.MobilePhoneRecycle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/MobilePhoneRecycle/MrOCodeHeader.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0441DAD92A8A2C5400DB76C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B39D2B0932803CEBD853E21 /* Pods-MobilePhoneRecycle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobilePhoneRecycle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.MobilePhoneRecycle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/MobilePhoneRecycle/MrOCodeHeader.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0441DABE2A8A2C5100DB76C3 /* Build configuration list for PBXProject "MobilePhoneRecycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0441DAD52A8A2C5400DB76C3 /* Debug */,
+				0441DAD62A8A2C5400DB76C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0441DAD72A8A2C5400DB76C3 /* Build configuration list for PBXNativeTarget "MobilePhoneRecycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0441DAD82A8A2C5400DB76C3 /* Debug */,
+				0441DAD92A8A2C5400DB76C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0441DABB2A8A2C5100DB76C3 /* Project object */;
+}
